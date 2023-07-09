@@ -688,7 +688,7 @@ flex-direction: column;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) and (max-height: 585px) {
     .footer-text p {
         font-size: 0.9rem;
     }
@@ -696,6 +696,20 @@ flex-direction: column;
     .home_main {
         padding-top: 15%;
         padding-bottom: 30%;
+    }
+
+    .icons {
+        margin-left: 9%;
+        margin-top: 4%;
+    }
+    .buton {
+        margin-top: 5%;
+        width: 46%;
+    }
+    .home_img {
+        width: 50%;
+        margin-top: -2%;
+        margin-left: 20%;
     }
     .about {
         display: flex;
